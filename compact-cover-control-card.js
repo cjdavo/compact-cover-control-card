@@ -1,6 +1,6 @@
 window.customCards = window.customCards || [];
 window.customCards.push({
-  type: "compact-cover-control-card",
+  type: "com-cover-control-card",
   name: "Compact Cover Control Card",
   description: "A custom card for controlling covers in a compact format",
 });
@@ -182,5 +182,5 @@ const rt=(t,e)=>"method"===e.kind&&e.descriptor&&!("value"in e.descriptor)?{...e
       min-width: 48px;
       text-align: right;
     }
-  `,t([lt({attribute:!1}),e("design:type",Object)],ct.prototype,"hass",void 0),t([lt({type:Object}),e("design:type",Object)],ct.prototype,"config",void 0),ct=ht=t([(t=>e=>"function"==typeof e?((t,e)=>(customElements.define(t,e),e))(t,e):((t,e)=>{const{kind:i,elements:s}=e;return{kind:i,elements:s,finisher(e){customElements.define(t,e)}}})(t,e))("compact-cover-control-card")],ct);export{ct as CompactCoverControlCard};
-//# sourceMappingURL=compact-cover-control-card.js.map
+  `,t([lt({attribute:!1}),e("design:type",Object)],ct.prototype,"hass",void 0),t([lt({type:Object}),e("design:type",Object)],ct.prototype,"config",void 0),ct=ht=t([(t=>e=>"function"==typeof e?((t,e)=>(customElements.define(t,e),e))(t,e):((t,e)=>{const{kind:i,elements:s}=e;return{kind:i,elements:s,finisher(e){customElements.define(t,e)}}})(t,e))("com-cover-control-card")],ct);export{ct as CompactCoverControlCard};
+//# sourceMappingURL=com-cover-control-card.js.map
