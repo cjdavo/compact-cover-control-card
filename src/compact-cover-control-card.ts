@@ -299,3 +299,9 @@ export class CompactCoverControlCard extends LitElement {
     };
   }
 }
+window.customCards = window.customCards || [];
+window.customCards.push({
+  type: "compact-cover-control-card",
+  name: "Compact Cover Control Card",
+  description: "A custom card for controlling covers in a compact format",
+});
