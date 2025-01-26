@@ -184,27 +184,3 @@ const rt=(t,e)=>"method"===e.kind&&e.descriptor&&!("value"in e.descriptor)?{...e
     }
   `,t([lt({attribute:!1}),e("design:type",Object)],ct.prototype,"hass",void 0),t([lt({type:Object}),e("design:type",Object)],ct.prototype,"config",void 0),ct=ht=t([(t=>e=>"function"==typeof e?((t,e)=>(customElements.define(t,e),e))(t,e):((t,e)=>{const{kind:i,elements:s}=e;return{kind:i,elements:s,finisher(e){customElements.define(t,e)}}})(t,e))("com-cover-control-card")],ct);export{ct as CompactCoverControlCard};
 //# sourceMappingURL=com-cover-control-card.js.map
-<div class="instructions">
-        For instructions, visit the
-        <a href="https://github.com/cjdavo/compact-cover-control-card" target="_blank"
-          >Custom Cover Control Card Examples and Docs</a
-        >.
-      </div>
-      <div class="yaml-editor">
-        <ha-yaml-editor
-          .defaultValue=${this.config}
-          autofocus
-          .hass=${this.hass}
-          @value-changed=${this._handleYAMLChanged}
-          @keydown=${this._ignoreKeydown}
-          dir="ltr"
-        ></ha-yaml-editor>
-      </div>
-    `:ee`loading...`}_ignoreKeydown(t){t.stopPropagation()}_handleYAMLChanged(t){t.stopPropagation();const e=t.detail.value;t.detail.isValid&&(this.yamlChange=!0,this.config=e,ke(this,"config-changed",{config:this.config}))}};Ge.styles=j`
-    .instructions {
-      margin-bottom: 8px;
-    }
-    .instructions a {
-      color: var(--mdc-theme-primary, #6200ee);
-    }
-  `,t([Re({attribute:!1})],Ge.prototype,"hass",void 0),t([function(t){return Re({...t,state:!0,attribute:!1})}
